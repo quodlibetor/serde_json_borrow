@@ -89,7 +89,7 @@ mod value;
 #[cfg(feature = "cowkeys")]
 mod cowstr;
 
-pub use object_vec::{KeyStrType, ObjectAsVec, ObjectAsVec as Map};
+pub use object_vec::{KeyStrType, ObjectAsVec, ObjectAsVec as Map, ObjectEntry};
 pub use ownedvalue::OwnedValue;
 pub use reusable::{BorrowedMap, ReusableMap};
 pub use value::Value;
